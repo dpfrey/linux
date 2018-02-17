@@ -168,7 +168,7 @@ void __ndisc_fill_addr_option(struct sk_buff *skb, int type, void *data,
  *			 u8 **ha):
  *     This function is called when the necessary option space will be
  *     calculated before allocating a skb. The parameters neigh, ha_buf
- *     abd ha are available on NDISC_REDIRECT messages only.
+ *     and ha are available on NDISC_REDIRECT messages only.
  *
  * void (*fill_addr_option)(const struct net_device *dev,
  *			    struct sk_buff *skb, u8 icmp6_type,

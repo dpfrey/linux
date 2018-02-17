@@ -2131,7 +2131,7 @@ static void pull_dl_task(struct rq *this_rq)
 		src_rq = cpu_rq(cpu);
 
 		/*
-		 * It looks racy, abd it is! However, as in sched_rt.c,
+		 * It looks racy, and it is! However, as in sched_rt.c,
 		 * we are fine with this.
 		 */
 		if (this_rq->dl.dl_nr_running &&

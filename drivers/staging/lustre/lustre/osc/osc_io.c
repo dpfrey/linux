@@ -767,7 +767,7 @@ static int osc_fsync_ost(const struct lu_env *env, struct osc_object *obj,
 	oa->o_oi = loi->loi_oi;
 	oa->o_valid = OBD_MD_FLID | OBD_MD_FLGROUP;
 
-	/* reload size abd blocks for start and end of sync range */
+	/* reload size and blocks for start and end of sync range */
 	oa->o_size = fio->fi_start;
 	oa->o_blocks = fio->fi_end;
 	oa->o_valid |= OBD_MD_FLSIZE | OBD_MD_FLBLOCKS;

@@ -54,7 +54,7 @@ u32 PHY_CalculateBitShift(u32 BitMask)
  *			PHY_RFShadowRecorverFlagSet
  *
  * Overview:	When we set RF register, we must write shadow at first.
- *		When we are running, we must compare shadow abd locate error addr.
+ *		When we are running, we must compare shadow and locate error addr.
  *		Decide to recorver or not.
  *
  * Input:       NONE

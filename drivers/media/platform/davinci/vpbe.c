@@ -594,7 +594,7 @@ static int vpbe_initialize(struct device *dev, struct vpbe_device *vpbe_dev)
 	int i;
 
 	/*
-	 * v4l2 abd FBDev frame buffer devices will get the vpbe_dev pointer
+	 * v4l2 and FBDev frame buffer devices will get the vpbe_dev pointer
 	 * from the platform device by iteration of platform drivers and
 	 * matching with device name
 	 */
