@@ -688,8 +688,8 @@ MODULE_DEVICE_TABLE(of, ti_abb_of_match);
  * @pdev: ABB platform device
  *
  * Initializes an individual ABB LDO for required Body-Bias. ABB is used to
- * addional bias supply to SoC modules for power savings or mandatory stability
- * configuration at certain Operating Performance Points(OPPs).
+ * additional bias supply to SoC modules for power savings or mandatory
+ * stability configuration at certain Operating Performance Points(OPPs).
  *
  * Return: 0 on success or appropriate error value when fails
  */
