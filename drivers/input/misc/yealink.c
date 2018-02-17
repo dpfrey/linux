@@ -351,7 +351,7 @@ static int yealink_do_idle_tasks(struct yealink_dev *yld)
 
 	/* nothing todo, wait a bit and poll for a KEYPRESS */
 	yld->stat_ix = 0;
-	/* TODO how can we wait abit. ??
+	/* TODO how can we wait a bit. ??
 	 * msleep_interruptible(1000 / YEALINK_POLLING_FREQUENCY);
 	 */
 	return 0;
