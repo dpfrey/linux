@@ -909,7 +909,7 @@ struct scu_iit_entry {
  * To calculate the offset for other functions use
  *       BAR0 + FN# * SystemPageSize * 2
  *
- * The TCA is only accessable from FN#0 (Physical Function) and each
+ * The TCA is only accessible from FN#0 (Physical Function) and each
  * is programmed by (BAR0 + SCU_SMU_TCA_OFFSET + (FN# * 0x04)) or
  *    TCA0 for FN#0 is at BAR0 + 0x0400
  *    TCA1 for FN#1 is at BAR0 + 0x0404
