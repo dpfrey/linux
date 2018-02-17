@@ -740,7 +740,7 @@ static struct p9_trans_module p9_virtio_trans = {
 	.cancel = p9_virtio_cancel,
 	/*
 	 * We leave one entry for input and one entry for response
-	 * headers. We also skip one more entry to accomodate, address
+	 * headers. We also skip one more entry to accommodate, address
 	 * that are not at page boundary, that can result in an extra
 	 * page in zero copy.
 	 */

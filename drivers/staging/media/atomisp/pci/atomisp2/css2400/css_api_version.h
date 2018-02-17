@@ -268,7 +268,7 @@ v2.1.8.4 (2 changes parallel), ISYS EOF timestamp for output buffers
 #else
 v2.1.8.5 (4 changes parallel), ISYS EOF timestamp for output buffers
 #endif
-- driver gets EOF timer to every out frame . ia_css_buffer modified to accomodate same.
+- driver gets EOF timer to every out frame . ia_css_buffer modified to accommodate same.
 
 #ifndef ISP2401
 v2.1.8.4 (4 changes parallel), display_config
