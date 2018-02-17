@@ -1810,7 +1810,7 @@ int ttm_bo_wait_unreserved(struct ttm_buffer_object *bo)
 	int ret;
 
 	/*
-	 * In the absense of a wait_unlocked API,
+	 * In the absence of a wait_unlocked API,
 	 * Use the bo::wu_mutex to avoid triggering livelocks due to
 	 * concurrent use of this function. Note that this use of
 	 * bo::wu_mutex can go away if we change locking order to
