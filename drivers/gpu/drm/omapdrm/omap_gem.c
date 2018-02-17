@@ -870,7 +870,7 @@ fail:
  * @obj: the GEM object
  *
  * Unpin the given GEM object previously pinned with omap_gem_pin(). Pins are
- * reference-counted, the actualy unpin will only be performed when the number
+ * reference-counted, the actually unpin will only be performed when the number
  * of calls to this function matches the number of calls to omap_gem_pin().
  */
 void omap_gem_unpin(struct drm_gem_object *obj)

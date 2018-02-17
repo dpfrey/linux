@@ -3824,7 +3824,7 @@ static inline u64 intel_rc6_residency_us(struct drm_i915_private *dev_priv,
  *
  * When reading a 64-bit value as two 32-bit values, the delay may cause
  * the two reads to mismatch, e.g. a timestamp overflowing. Also note that
- * occasionally a 64-bit register does not actualy support a full readq
+ * occasionally a 64-bit register does not actually support a full readq
  * and must be read using two 32-bit reads.
  *
  * You have been warned.

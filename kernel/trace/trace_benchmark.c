@@ -112,7 +112,7 @@ static void trace_do_benchmark(void)
 		int i = 0;
 		/*
 		 * stddev is the square of standard deviation but
-		 * we want the actualy number. Use the average
+		 * we want the actually number. Use the average
 		 * as our seed to find the std.
 		 *
 		 * The next try is:

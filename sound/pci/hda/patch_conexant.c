@@ -1072,7 +1072,7 @@ static int patch_conexant_auto(struct hda_codec *codec)
 
 	/* Show mute-led control only on HP laptops
 	 * This is a sort of white-list: on HP laptops, EAPD corresponds
-	 * only to the mute-LED without actualy amp function.  Meanwhile,
+	 * only to the mute-LED without actually amp function.  Meanwhile,
 	 * others may use EAPD really as an amp switch, so it might be
 	 * not good to expose it blindly.
 	 */
