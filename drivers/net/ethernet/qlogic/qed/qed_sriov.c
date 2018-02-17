@@ -3300,7 +3300,7 @@ static void qed_iov_vf_mbx_ucast_filter(struct qed_hwfn *p_hwfn,
 		goto out;
 	}
 
-	/* Determine if the unicast filtering is acceptible by PF */
+	/* Determine if the unicast filtering is acceptable by PF */
 	if ((p_bulletin->valid_bitmap & BIT(VLAN_ADDR_FORCED)) &&
 	    (params.type == QED_FILTER_VLAN ||
 	     params.type == QED_FILTER_MAC_VLAN)) {
