@@ -395,7 +395,7 @@ static unsigned int stac_vref_led_power_filter(struct hda_codec *codec,
 	return snd_hda_gen_path_power_filter(codec, nid, power_state);
 }
 
-/* update mute-LED accoring to the master switch */
+/* update mute-LED according to the master switch */
 static void stac_update_led_status(struct hda_codec *codec, int enabled)
 {
 	struct sigmatel_spec *spec = codec->spec;
