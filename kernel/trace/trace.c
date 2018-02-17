@@ -8352,7 +8352,7 @@ __init static int tracer_alloc_buffers(void)
 	int ret = -ENOMEM;
 
 	/*
-	 * Make sure we don't accidently add more trace options
+	 * Make sure we don't accidentally add more trace options
 	 * than we have bits for.
 	 */
 	BUILD_BUG_ON(TRACE_ITER_LAST_BIT > TRACE_FLAGS_MAX_SIZE);

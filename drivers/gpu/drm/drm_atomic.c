@@ -1215,7 +1215,7 @@ static int drm_atomic_connector_set_property(struct drm_connector *connector,
 		 * restore the state it wants on VT switch. So if the userspace
 		 * tries to change the link_status from GOOD to BAD, driver
 		 * silently rejects it and returns a 0. This prevents userspace
-		 * from accidently breaking  the display when it restores the
+		 * from accidentally breaking  the display when it restores the
 		 * state.
 		 */
 		if (state->link_status != DRM_LINK_STATUS_GOOD)

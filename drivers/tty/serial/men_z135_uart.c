@@ -253,7 +253,7 @@ static void men_z135_handle_rx(struct men_z135_port *uart)
 	if (size == 0)
 		return;
 
-	/* Avoid accidently accessing TX FIFO instead of RX FIFO. Last
+	/* Avoid accidentally accessing TX FIFO instead of RX FIFO. Last
 	 * longword in RX FIFO cannot be read.(0x004-0x3FF)
 	 */
 	if (size > MEN_Z135_FIFO_WATERMARK)

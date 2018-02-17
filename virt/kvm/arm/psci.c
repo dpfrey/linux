@@ -279,7 +279,7 @@ static int kvm_psci_0_2_call(struct kvm_vcpu *vcpu)
 		 * We should'nt be going back to guest VCPU after
 		 * receiving SYSTEM_OFF request.
 		 *
-		 * If user space accidently/deliberately resumes
+		 * If user space accidentally/deliberately resumes
 		 * guest VCPU after SYSTEM_OFF request then guest
 		 * VCPU should see internal failure from PSCI return
 		 * value. To achieve this, we preload r0 (or x0) with
