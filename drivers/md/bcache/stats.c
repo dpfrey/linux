@@ -11,8 +11,8 @@
 #include "sysfs.h"
 
 /*
- * We keep absolute totals of various statistics, and addionally a set of three
- * rolling averages.
+ * We keep absolute totals of various statistics, and additionally a set of
+ * three rolling averages.
  *
  * Every so often, a timer goes off and rescales the rolling averages.
  * accounting_rescale[] is how many times the timer has to go off before we
