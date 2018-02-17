@@ -74,7 +74,7 @@
  * (single channel, 64K read buffer). I get random system lockups when
  * using DMA with ALI-15xx based systems. I haven't been able to test
  * any other chipsets. The lockups happen soon after the start of an
- * acquistion, not in the middle of a long run.
+ * acquisition, not in the middle of a long run.
  *
  * Without DMA, you can do 620Khz sampling with 20% idle on a 400Mhz K6-2
  * (with a 256K read buffer).

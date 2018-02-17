@@ -1415,7 +1415,7 @@ enum stb0899_status stb0899_dvbs2_algo(struct stb0899_state *state)
 		/* IQ Spectrum Inversion	*/
 		STB0899_SETFIELD_VAL(SPECTRUM_INVERT, reg, !iqSpectrum);
 		stb0899_write_s2reg(state, STB0899_S2DEMOD, STB0899_BASE_DMD_CNTRL2, STB0899_OFF0_DMD_CNTRL2, reg);
-		/* start acquistion process	*/
+		/* start acquisition process	*/
 		stb0899_dvbs2_reacquire(state);
 
 		/* Wait for demod lock (UWP and CSM)	*/

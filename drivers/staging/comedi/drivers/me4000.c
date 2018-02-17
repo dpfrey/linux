@@ -695,7 +695,7 @@ static int me4000_ai_do_cmd(struct comedi_device *dev,
 	/* Write the channel list */
 	me4000_ai_write_chanlist(dev, s, cmd);
 
-	/* Start acquistion by dummy read */
+	/* Start acquisition by dummy read */
 	inl(dev->iobase + ME4000_AI_START_REG);
 
 	return 0;
