@@ -401,7 +401,7 @@ static int tse_rx(struct altera_tse_private *priv, int limit)
 				   "RCV pktstatus %08X pktlength %08X\n",
 				   pktstatus, pktlength);
 
-		/* DMA trasfer from TSE starts with 2 aditional bytes for
+		/* DMA trasfer from TSE starts with 2 additional bytes for
 		 * IP payload alignment. Status returned by get_rx_status()
 		 * contains DMA transfer length. Packet is 2 bytes shorter.
 		 */

@@ -37,7 +37,7 @@
  * On some Power systems where RMO is 128MB, it still requires minimum of
  * 256MB for kernel to boot successfully. When kdump infrastructure is
  * configured to save vmcore over network, we run into OOM issue while
- * loading modules related to network setup. Hence we need aditional 64M
+ * loading modules related to network setup. Hence we need additional 64M
  * of memory to avoid OOM issue.
  */
 #define MIN_BOOT_MEM	(((RMA_END < (0x1UL << 28)) ? (0x1UL << 28) : RMA_END) \
