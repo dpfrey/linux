@@ -1148,7 +1148,7 @@ static int rtl8180_start(struct ieee80211_hw *dev)
 	rtl8180_int_enable(dev);
 
 	/* in rtl8187se at MAR regs offset there is the management
-	 * TX descriptor DMA addres..
+	 * TX descriptor DMA address..
 	 */
 	if (priv->chip_family != RTL818X_CHIP_FAMILY_RTL8187SE) {
 		rtl818x_iowrite32(priv, &priv->map->MAR[0], ~0);

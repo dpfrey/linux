@@ -584,7 +584,7 @@ struct sh_css_sp_pipeline {
 /*
  * The first frames (with comment Dynamic) can be dynamic or static
  * The other frames (ref_in and below) can only be static
- * Static means that the data addres will not change during the life time
+ * Static means that the data address will not change during the life time
  * of the associated pipe. Dynamic means that the data address can
  * change with every (frame) iteration of the associated pipe
  *
