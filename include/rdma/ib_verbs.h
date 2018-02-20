@@ -2711,7 +2711,7 @@ static inline bool rdma_cap_ib_sa(const struct ib_device *device, u8 port_num)
  * to this group.  And it should leave the group only after all queue pairs
  * attached to the group have been detached.
  *
- * Return: true if the port must undertake the additional adminstrative
+ * Return: true if the port must undertake the additional administrative
  * overhead of registering/unregistering with the SM and tracking of the
  * total number of queue pairs attached to the multicast group.
  */
