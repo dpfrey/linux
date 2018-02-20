@@ -298,7 +298,7 @@ This is a really varied tasks with lots of little bits and pieces:
 
 * For the above locking troubles reasons it's pretty much impossible to
   attempt a synchronous modeset from panic handlers. The only thing we could
-  try to achive is an atomic ``set_base`` of the primary plane, and hope that
+  try to achieve is an atomic ``set_base`` of the primary plane, and hope that
   it shows up. Everything else probably needs to be delayed to some worker or
   something else which happens later on. Otherwise it just kills the box
   harder, prevent the panic from going out on e.g. netconsole.
