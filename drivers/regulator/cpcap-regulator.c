@@ -29,7 +29,7 @@
 
 /*
  * Resource assignment register bits. These seem to control the state
- * idle modes adn are used at least for omap4.
+ * idle modes and are used at least for omap4.
  */
 
 /* CPCAP_REG_ASSIGN2 bits - Resource Assignment 2 */
