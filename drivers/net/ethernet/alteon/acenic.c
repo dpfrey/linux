@@ -289,7 +289,7 @@ MODULE_DEVICE_TABLE(pci, acenic_pci_tbl);
  *     RX_MINI_THRES       - maximum number of buffers in the mini ring
  *     RX_JUMBO_THRES      - maximum number of buffers in the jumbo ring
  *
- * One advantagous side effect of this allocation approach is that the
+ * One advantageous side effect of this allocation approach is that the
  * entire rx processing can be done without holding any spin lock
  * since the rx rings and registers are totally independent of the tx
  * ring and its registers.  This of course includes the kmalloc's of
