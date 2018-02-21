@@ -480,7 +480,7 @@ static u32 omap4_calc_volt_ramp(struct voltagedomain *voltdm, u32 voltage_diff)
  * @mask: bitfield mask
  *
  * Converts microsecond value to OMAP4 SCRM bitfield. Bitfield is
- * shifted to requested position, and checked agains the mask value.
+ * shifted to requested position, and checked against the mask value.
  * If larger, forced to the max value of the field (i.e. the mask itself.)
  * Returns the SCRM bitfield value.
  */
