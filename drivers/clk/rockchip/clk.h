@@ -230,7 +230,7 @@ struct rockchip_pll_rate_table {
  *
  * Flags:
  * ROCKCHIP_PLL_SYNC_RATE - check rate parameters to match against the
- *	rate_table parameters and ajust them if necessary.
+ *	rate_table parameters and adjust them if necessary.
  */
 struct rockchip_pll_clock {
 	unsigned int		id;

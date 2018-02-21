@@ -2685,7 +2685,7 @@ lpfc_bg_scsi_adjust_dl(struct lpfc_hba *phba,
 
 	/*
 	 * If we are in DIF Type 1 mode every data block has a 8 byte
-	 * DIF (trailer) attached to it. Must ajust FCP data length
+	 * DIF (trailer) attached to it. Must adjust FCP data length
 	 * to account for the protection data.
 	 */
 	fcpdl += (fcpdl / lpfc_cmd_blksize(sc)) * 8;

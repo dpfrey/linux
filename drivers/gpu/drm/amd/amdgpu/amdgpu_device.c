@@ -565,7 +565,7 @@ void amdgpu_device_vram_location(struct amdgpu_device *adev,
  *
  * Function will place try to place GTT before or after VRAM.
  *
- * If GTT size is bigger than space left then we ajust GTT size.
+ * If GTT size is bigger than space left then we adjust GTT size.
  * Thus function will never fails.
  *
  * FIXME: when reducing GTT size align new size on power of 2.
