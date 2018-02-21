@@ -283,7 +283,7 @@ int qed_dmae_grc2host(struct qed_hwfn *p_hwfn, struct qed_ptt *p_ptt,
 
 /**
  * @brief qed_dmae_host2host - copy data from to source address
- * to a destination adress (for SRIOV) using the given ptt
+ * to a destination address (for SRIOV) using the given ptt
  *
  * @param p_hwfn
  * @param p_ptt
