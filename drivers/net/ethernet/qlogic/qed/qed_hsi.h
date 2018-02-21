@@ -4188,7 +4188,7 @@ void qed_memset_task_ctx(void *p_ctx_mem, u32 ctx_size, u8 ctx_type);
 	(IRO[20].base + ((vf_id) * IRO[20].m1) + ((vf_queue_id) * IRO[20].m2))
 #define MSTORM_ETH_VF_PRODS_SIZE			(IRO[20].size)
 
-/* TPA agregation timeout in us resolution (on ASIC) */
+/* TPA aggregation timeout in us resolution (on ASIC) */
 #define MSTORM_TPA_TIMEOUT_US_OFFSET			(IRO[21].base)
 #define MSTORM_TPA_TIMEOUT_US_SIZE			(IRO[21].size)
 
