@@ -1816,7 +1816,7 @@ struct ieee80211_sta {
 	 *
 	 * * If the skb is transmitted as part of a BA agreement, the
 	 *   A-MSDU maximal size is min(max_amsdu_len, 4065) bytes.
-	 * * If the skb is not part of a BA aggreement, the A-MSDU maximal
+	 * * If the skb is not part of a BA agreement, the A-MSDU maximal
 	 *   size is min(max_amsdu_len, 7935) bytes.
 	 *
 	 * Both additional HT limits must be enforced by the low level
