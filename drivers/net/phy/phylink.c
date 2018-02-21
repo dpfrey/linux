@@ -364,7 +364,7 @@ static void phylink_get_fixed_state(struct phylink *pl, struct phylink_link_stat
 }
 
 /* Flow control is resolved according to our and the link partners
- * advertisments using the following drawn from the 802.3 specs:
+ * advertisements using the following drawn from the 802.3 specs:
  *  Local device  Link partner
  *  Pause AsymDir Pause AsymDir Result
  *    1     X       1     X     TX+RX
@@ -1076,7 +1076,7 @@ int phylink_ethtool_ksettings_set(struct phylink *pl,
 
 	config = pl->link_config;
 
-	/* Mask out unsupported advertisments */
+	/* Mask out unsupported advertisements */
 	linkmode_and(config.advertising, kset->link_modes.advertising,
 		     pl->supported);
 
