@@ -405,7 +405,7 @@ static int mpc52xx_psc_spi_do_probe(struct device *dev, u32 regaddr,
 		ret = -EFAULT;
 		goto free_master;
 	}
-	/* On the 5200, fifo regs are immediately ajacent to the psc regs */
+	/* On the 5200, fifo regs are immediately adjacent to the psc regs */
 	mps->fifo = ((void __iomem *)mps->psc) + sizeof(struct mpc52xx_psc);
 
 	ret = request_irq(mps->irq, mpc52xx_psc_spi_isr, 0, "mpc52xx-psc-spi",
