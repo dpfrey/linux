@@ -76,7 +76,7 @@ static inline void __kprobes bx_write_pc(long pcv, struct pt_regs *regs)
 		pcv &= ~0x1;
 	} else {
 		cpsr &= ~PSR_T_BIT;
-		pcv &= ~0x2;	/* Avoid UNPREDICTABLE address allignment */
+		pcv &= ~0x2;	/* Avoid UNPREDICTABLE address alignment */
 	}
 	regs->ARM_cpsr = cpsr;
 	regs->ARM_pc = pcv;

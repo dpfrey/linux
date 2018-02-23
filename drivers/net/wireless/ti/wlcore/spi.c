@@ -410,7 +410,7 @@ static int wl12xx_spi_set_power(struct device *child, bool enable)
  *
  * This function is not needed for spi mode, but need to be present.
  * Without it defined the wlcore fallback to use the wrong packet
- * allignment on tx.
+ * alignment on tx.
  */
 static void wl12xx_spi_set_block_size(struct device *child,
 				      unsigned int blksz)

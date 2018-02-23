@@ -422,7 +422,7 @@ islpci_eth_receive(islpci_private *priv)
 			   driver_curr_frag[ISL38XX_CB_RX_DATA_LQ]),
 	       index - priv->free_data_rx < ISL38XX_CB_RX_QSIZE) {
 		/* allocate an sk_buff for received data frames storage
-		 * include any required allignment operations */
+		 * include any required alignment operations */
 		skb = dev_alloc_skb(MAX_FRAGMENT_SIZE_RX + 2);
 		if (unlikely(skb == NULL)) {
 			/* error allocating an sk_buff structure elements */

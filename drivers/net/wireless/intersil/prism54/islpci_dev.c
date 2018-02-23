@@ -691,7 +691,7 @@ islpci_alloc_memory(islpci_private *priv)
 
 		/* allocate an sk_buff for received data frames storage
 		 * each frame on receive size consists of 1 fragment
-		 * include any required allignment operations */
+		 * include any required alignment operations */
 		if (!(skb = dev_alloc_skb(MAX_FRAGMENT_SIZE_RX + 2))) {
 			/* error allocating an sk_buff structure elements */
 			printk(KERN_ERR "Error allocating skb.\n");

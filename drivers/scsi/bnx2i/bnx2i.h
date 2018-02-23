@@ -540,7 +540,7 @@ struct bnx2i_5771x_cq_db {
 	u16 itt[BNX2X_MAX_CQS];
 	/* Cstorm CQ sequence to notify array, updated by driver */;
 	u16 sqn[BNX2X_MAX_CQS];
-	u32 reserved[4] /* 16 byte allignment */;
+	u32 reserved[4] /* 16 byte alignment */;
 };
 
 
