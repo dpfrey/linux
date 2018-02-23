@@ -644,7 +644,7 @@
 #define SSB_BFL2_BTC3WIRE		0x0080	/* used 3-wire bluetooth coexist */
 #define SSB_BFL2_SKWRKFEM_BRD		0x0100	/* 4321mcm93 uses Skyworks FEM */
 #define SSB_BFL2_SPUR_WAR		0x0200	/* has a workaround for clock-harmonic spurs */
-#define SSB_BFL2_GPLL_WAR		0x0400	/* altenative G-band PLL settings implemented */
+#define SSB_BFL2_GPLL_WAR		0x0400	/* alternative G-band PLL settings implemented */
 
 /* Values for SSB_SPROM1_BINF_CCODE */
 enum {
