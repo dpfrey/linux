@@ -15,7 +15,7 @@
  *
  * Vineetg: Aug 18th 2010
  *  -New Serial Core based ARC UART driver
- *  -Derived largely from blackfin driver albiet with some major tweaks
+ *  -Derived largely from blackfin driver albeit with some major tweaks
  *
  * TODO:
  *  -check if sysreq works
