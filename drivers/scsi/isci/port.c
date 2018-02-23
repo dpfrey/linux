@@ -898,7 +898,7 @@ static void sci_port_post_dummy_request(struct isci_port *iport)
 }
 
 /**
- * This routine will abort the dummy request.  This will alow the hardware to
+ * This routine will abort the dummy request.  This will allow the hardware to
  * power down parts of the silicon to save power.
  *
  * @sci_port: The port on which the task must be aborted.
