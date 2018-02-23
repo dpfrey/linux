@@ -80,7 +80,7 @@ struct hpfs_sb_info {
 	unsigned sb_chk : 2;		/* checks: 0-no, 1-normal, 2-strict */
 	unsigned sb_lowercase : 1;	/* downcase filenames hackery */
 	unsigned sb_was_error : 1;	/* there was an error, set dirty flag */
-	unsigned sb_chkdsk : 2;		/* chkdsk: 0-no, 1-on errs, 2-allways */
+	unsigned sb_chkdsk : 2;		/* chkdsk: 0-no, 1-on errs, 2-always */
 	unsigned char *sb_cp_table;	/* code page tables: */
 					/* 	128 bytes uppercasing table & */
 					/*	128 bytes lowercasing table */

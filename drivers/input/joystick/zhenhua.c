@@ -102,7 +102,7 @@ static irqreturn_t zhenhua_interrupt(struct serio *serio, unsigned char data, un
 	struct zhenhua *zhenhua = serio_get_drvdata(serio);
 
 	/* All Zhen Hua packets are 5 bytes. The fact that the first byte
-	 * is allways 0xf7 and all others are in range 0x32 - 0xc8 (50-200)
+	 * is always 0xf7 and all others are in range 0x32 - 0xc8 (50-200)
 	 * can be used to check and regain sync. */
 
 	if (data == 0xef)

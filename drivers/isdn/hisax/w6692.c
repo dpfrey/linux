@@ -1022,7 +1022,7 @@ int setup_w6692(struct IsdnCard *card)
 	if (dev_w6692) {
 		found = 1;
 		pci_irq = dev_w6692->irq;
-		/* I think address 0 is allways the configuration area */
+		/* I think address 0 is always the configuration area */
 		/* and address 1 is the real IO space KKe 03.09.99 */
 		pci_ioaddr = pci_resource_start(dev_w6692, 1);
 		/* USR ISDN PCI card TA need some special handling */

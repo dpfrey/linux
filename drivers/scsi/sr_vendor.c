@@ -10,7 +10,7 @@
  * Aug 1997: Ha! Got a SCSI-3 cdrom spec across my fingers. SCSI-3 does
  *           multisession using the READ TOC command (like SONY).
  *
- *           Rearranged stuff here: SCSI-3 is included allways, support
+ *           Rearranged stuff here: SCSI-3 is included always, support
  *           for NEC/TOSHIBA/HP commands is optional.
  *
  *   Gerd Knorr <kraxel@cs.tu-berlin.de> 

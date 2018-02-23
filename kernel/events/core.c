@@ -6097,7 +6097,7 @@ void perf_prepare_sample(struct perf_event_header *header,
 
 	if (sample_type & PERF_SAMPLE_STACK_USER) {
 		/*
-		 * Either we need PERF_SAMPLE_STACK_USER bit to be allways
+		 * Either we need PERF_SAMPLE_STACK_USER bit to be always
 		 * processed as the last one or have additional check added
 		 * in case new sample type is added, because we could eat
 		 * up the rest of the sample size.

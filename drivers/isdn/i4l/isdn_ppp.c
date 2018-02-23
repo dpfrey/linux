@@ -149,7 +149,7 @@ isdn_ppp_free(isdn_net_local *lp)
 /*
  * bind isdn_net_local <=> ippp-device
  *
- * This function is allways called with holding dev->lock so
+ * This function is always called with holding dev->lock so
  * no additional lock is needed
  */
 int

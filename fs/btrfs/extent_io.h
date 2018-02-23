@@ -97,7 +97,7 @@ typedef	blk_status_t (extent_submit_bio_hook_t)(void *private_data, struct bio *
 				       u64 bio_offset);
 struct extent_io_ops {
 	/*
-	 * The following callbacks must be allways defined, the function
+	 * The following callbacks must be always defined, the function
 	 * pointer will be called unconditionally.
 	 */
 	extent_submit_bio_hook_t *submit_bio_hook;

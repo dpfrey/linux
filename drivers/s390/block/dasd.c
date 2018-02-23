@@ -2783,7 +2783,7 @@ static void __dasd_block_start_head(struct dasd_block *block)
 
 	if (list_empty(&block->ccw_queue))
 		return;
-	/* We allways begin with the first requests on the queue, as some
+	/* We always begin with the first requests on the queue, as some
 	 * of previously started requests have to be enqueued on a
 	 * dasd_device again for error recovery.
 	 */
@@ -4079,7 +4079,7 @@ EXPORT_SYMBOL_GPL(dasd_generic_read_dev_chars);
 
 /*
  *   In command mode and transport mode we need to look for sense
- *   data in different places. The sense data itself is allways
+ *   data in different places. The sense data itself is always
  *   an array of 32 bytes, so we can unify the sense data access
  *   for both modes.
  */

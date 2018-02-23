@@ -401,7 +401,7 @@ static int CalibrateRF(struct tda_state *state,
 			break;
 
 		/* Switching off LT (as datasheet says) causes calibration on C1 to fail */
-		/* (Readout of Cprog is allways 255) */
+		/* (Readout of Cprog is always 255) */
 		if (state->m_Regs[ID] != 0x83)    /* C1: ID == 83, C2: ID == 84 */
 			state->m_Regs[EP3] |= 0x40; /* SM_LT = 1 */
 
