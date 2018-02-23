@@ -2337,7 +2337,7 @@ static int emac_check_deps(struct emac_instance *dev,
 	struct device_node *np;
 
 	for (i = 0; i < EMAC_DEP_COUNT; i++) {
-		/* no dependency on that item, allright */
+		/* no dependency on that item, alright */
 		if (deps[i].phandle == 0) {
 			there++;
 			continue;

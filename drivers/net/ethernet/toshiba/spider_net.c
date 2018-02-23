@@ -1788,7 +1788,7 @@ spider_net_enable_card(struct spider_net_card *card)
  * @firmware_ptr: pointer to firmware data
  *
  * spider_net_download_firmware loads the firmware data into the
- * adapter. It assumes the length etc. to be allright.
+ * adapter. It assumes the length etc. to be alright.
  */
 static int
 spider_net_download_firmware(struct spider_net_card *card,
