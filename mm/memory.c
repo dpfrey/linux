@@ -840,7 +840,7 @@ struct page *_vm_normal_page(struct vm_area_struct *vma, unsigned long addr,
 		/*
 		 * Device public pages are special pages (they are ZONE_DEVICE
 		 * pages but different from persistent memory). They behave
-		 * allmost like normal pages. The difference is that they are
+		 * almost like normal pages. The difference is that they are
 		 * not on the lru and thus should never be involve with any-
 		 * thing that involve lru manipulation (mlock, numa balancing,
 		 * ...).
