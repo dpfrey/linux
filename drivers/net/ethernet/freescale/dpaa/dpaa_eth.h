@@ -82,7 +82,7 @@ struct dpaa_fq_cbs {
 struct dpaa_bp {
 	/* device used in the DMA mapping operations */
 	struct device *dev;
-	/* current number of buffers in the buffer pool alloted to each CPU */
+	/* current number of buffers in the buffer pool allotted to each CPU */
 	int __percpu *percpu_count;
 	/* all buffers allocated for this pool have this raw size */
 	size_t raw_size;

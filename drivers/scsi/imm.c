@@ -1122,7 +1122,7 @@ static struct scsi_host_template imm_template = {
 static LIST_HEAD(imm_hosts);
 
 /*
- * Finds the first available device number that can be alloted to the
+ * Finds the first available device number that can be allotted to the
  * new imm device and returns the address of the previous node so that
  * we can add to the tail and have a list in the ascending order.
  */
