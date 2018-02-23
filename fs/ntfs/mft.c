@@ -2427,7 +2427,7 @@ have_alloc_rec:
 	read_unlock_irqrestore(&mft_ni->size_lock, flags);
 	/*
 	 * Extend mft data initialized size (and data size of course) to reach
-	 * the allocated mft record, formatting the mft records allong the way.
+	 * the allocated mft record, formatting the mft records along the way.
 	 * Note: We only modify the ntfs_inode structure as that is all that is
 	 * needed by ntfs_mft_record_format().  We will update the attribute
 	 * record itself in one fell swoop later on.
