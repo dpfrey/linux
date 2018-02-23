@@ -1137,7 +1137,7 @@ u8 iser_check_task_pi_status(struct iscsi_iser_task *iser_task,
 
 	return 0;
 err:
-	/* Not alot we can do here, return ambiguous guard error */
+	/* Not a lot we can do here, return ambiguous guard error */
 	return 0x1;
 }
 
