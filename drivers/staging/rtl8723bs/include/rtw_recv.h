@@ -425,7 +425,7 @@ __inline static u8 *get_rxmem(union recv_frame *precvframe)
 __inline static u8 *get_recvframe_data(union recv_frame *precvframe)
 {
 
-	/* alwasy return rx_data */
+	/* always return rx_data */
 	if (precvframe == NULL)
 		return NULL;
 

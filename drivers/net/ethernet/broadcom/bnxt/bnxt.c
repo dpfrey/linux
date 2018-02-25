@@ -6308,7 +6308,7 @@ static int bnxt_update_link(struct bnxt *bp, bool chng_link_state)
 		if (link_up != link_info->link_up)
 			bnxt_report_link(bp);
 	} else {
-		/* alwasy link down if not require to update link state */
+		/* always link down if not require to update link state */
 		link_info->link_up = 0;
 	}
 	mutex_unlock(&bp->hwrm_cmd_lock);
