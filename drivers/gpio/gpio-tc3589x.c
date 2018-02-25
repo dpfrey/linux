@@ -106,7 +106,7 @@ static int tc3589x_gpio_set_config(struct gpio_chip *chip, unsigned int offset,
 	struct tc3589x_gpio *tc3589x_gpio = gpiochip_get_data(chip);
 	struct tc3589x *tc3589x = tc3589x_gpio->tc3589x;
 	/*
-	 * These registers are alterated at each second address
+	 * These registers are alternated at each second address
 	 * ODM bit 0 = drive to GND or Hi-Z (open drain)
 	 * ODM bit 1 = drive to VDD or Hi-Z (open source)
 	 */
