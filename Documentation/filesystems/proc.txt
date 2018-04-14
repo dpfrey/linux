@@ -450,8 +450,8 @@ The memory isn't freed immediately with madvise(). It's freed in memory
 pressure if the memory is clean. Please note that the printed value might
 be lower than the real value due to optimizations used in the current
 implementation. If this is not desirable please file a bug report.
-"AnonHugePages" shows the ammount of memory backed by transparent hugepage.
-"ShmemPmdMapped" shows the ammount of shared (shmem/tmpfs) memory backed by
+"AnonHugePages" shows the amount of memory backed by transparent hugepage.
+"ShmemPmdMapped" shows the amount of shared (shmem/tmpfs) memory backed by
 huge pages.
 "Shared_Hugetlb" and "Private_Hugetlb" show the ammounts of memory backed by
 hugetlbfs page which is *not* counted in "RSS" or "PSS" field for historical
