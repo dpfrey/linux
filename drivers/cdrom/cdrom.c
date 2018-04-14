@@ -3116,7 +3116,7 @@ static noinline int mmc_ioctl_cdrom_volume(struct cdrom_device_info *cdi,
 		
 	/* originally the code depended on buffer[1] to determine
 	   how much data is available for transfer. buffer[1] is
-	   unfortunately ambigious and the only reliable way seem
+	   unfortunately ambiguous and the only reliable way seem
 	   to be to simply skip over the block descriptor... */
 	offset = 8 + be16_to_cpu(*(__be16 *)(buffer + 6));
 
