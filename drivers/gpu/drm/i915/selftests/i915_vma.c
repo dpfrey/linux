@@ -152,7 +152,7 @@ static int igt_vma_create(void *arg)
 	LIST_HEAD(objects);
 	int err = -ENOMEM;
 
-	/* Exercise creating many vma amonst many objections, checking the
+	/* Exercise creating many vma amongst many objections, checking the
 	 * vma creation and lookup routines.
 	 */
 

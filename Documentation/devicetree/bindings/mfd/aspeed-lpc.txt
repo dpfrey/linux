@@ -21,7 +21,7 @@ to:
 
 * An LPC Host Controller: Manages LPC functions such as host vs slave mode, the
   physical properties of some LPC pins, configuration of serial IRQs, and
-  APB-to-LPC bridging amonst other functions.
+  APB-to-LPC bridging amongst other functions.
 
 * An LPC Host Interface Controller: Manages functions exposed to the host such
   as LPC firmware hub cycles, configuration of the LPC-to-AHB mapping, UART
