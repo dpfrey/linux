@@ -50,7 +50,7 @@ static unsigned long __percpu *percpu_count_ptr(struct percpu_ref *ref)
  * @gfp: allocation mask to use
  *
  * Initializes @ref.  If @flags is zero, @ref starts in percpu mode with a
- * refcount of 1; analagous to atomic_long_set(ref, 1).  See the
+ * refcount of 1; analogous to atomic_long_set(ref, 1).  See the
  * definitions of PERCPU_REF_INIT_* flags for flag behaviors.
  *
  * Note that @release must not sleep - it may potentially be called from RCU

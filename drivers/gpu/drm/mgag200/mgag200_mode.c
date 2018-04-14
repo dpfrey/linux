@@ -1484,7 +1484,7 @@ static void mga_crtc_init(struct mga_device *mdev)
  */
 
 /*
- * These functions are analagous to those in the CRTC code, but are intended
+ * These functions are analogous to those in the CRTC code, but are intended
  * to handle any encoder-specific limitations
  */
 static void mga_encoder_mode_set(struct drm_encoder *encoder,

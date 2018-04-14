@@ -4702,7 +4702,7 @@ static const char readme_msg[] =
 	"\t    unchanged.\n\n"
 	"\t    The enable_hist and disable_hist triggers can be used to\n"
 	"\t    have one event conditionally start and stop another event's\n"
-	"\t    already-attached hist trigger.  The syntax is analagous to\n"
+	"\t    already-attached hist trigger.  The syntax is analogous to\n"
 	"\t    the enable_event and disable_event triggers.\n"
 #endif
 ;
