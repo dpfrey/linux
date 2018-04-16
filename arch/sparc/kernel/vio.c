@@ -468,7 +468,7 @@ static struct mdesc_notifier_client vio_device_notifier = {
 
 /* We are only interested in domain service ports under the
  * "domain-services" node.  On control nodes there is another port
- * under "openboot" that we should not mess with as aparently that is
+ * under "openboot" that we should not mess with as apparently that is
  * reserved exclusively for OBP use.
  */
 static void vio_add_ds(struct mdesc_handle *hp, u64 node,
