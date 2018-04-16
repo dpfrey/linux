@@ -1042,7 +1042,7 @@ static void __init xive_request_ipi(void)
 	/*
 	 * Initialization failed, move on, we might manage to
 	 * reach the point where we display our errors before
-	 * the system falls appart
+	 * the system falls apart
 	 */
 	if (!xive_irq_domain)
 		return;
